@@ -3,6 +3,8 @@ package org.talend.components.widget.service;
 import static java.util.stream.Collectors.toList;
 import static org.talend.sdk.component.api.service.asyncvalidation.ValidationResult.Status.KO;
 
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.stream.Stream;
 
 import org.talend.components.widget.source.ConnectionConfiguration;
@@ -12,6 +14,8 @@ import org.talend.sdk.component.api.service.asyncvalidation.AsyncValidation;
 import org.talend.sdk.component.api.service.asyncvalidation.ValidationResult;
 import org.talend.sdk.component.api.service.asyncvalidation.ValidationResult.Status;
 import org.talend.sdk.component.api.service.completion.DynamicValues;
+import org.talend.sdk.component.api.service.completion.SuggestionValues;
+import org.talend.sdk.component.api.service.completion.Suggestions;
 import org.talend.sdk.component.api.service.completion.Values;
 import org.talend.sdk.component.api.service.healthcheck.HealthCheck;
 import org.talend.sdk.component.api.service.healthcheck.HealthCheckStatus;
@@ -59,6 +63,15 @@ public class WidgetService {
             return new HealthCheckStatus(HealthCheckStatus.Status.KO, "Password should be 123456");
         }
         return new HealthCheckStatus(HealthCheckStatus.Status.OK, "Connection ok");
+    }
+    
+    @Suggestions(value = "module")
+    public SuggestionValues suggest(@Option("mod") final String moduleName) {
+        final Collection<SuggestionValues.Item> items = new ArrayList<>();
+        items.add(new SuggestionValues.Item("a", "A"));
+        items.add(new SuggestionValues.Item("b", "B"));
+        items.add(new SuggestionValues.Item("c", "C"));
+        return new SuggestionValues(true, items);
     }
     
 }
