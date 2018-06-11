@@ -26,7 +26,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <component.api.version>1.0.0</component.api.version>
+    <component.api.version>1.0.1</component.api.version>
     <component.runtime.version>1.0.0</component.runtime.version>
   </properties>
 
