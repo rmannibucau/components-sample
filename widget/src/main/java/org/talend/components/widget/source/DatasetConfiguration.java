@@ -19,7 +19,7 @@ import java.io.Serializable;
 
 import org.talend.sdk.component.api.configuration.Option;
 import org.talend.sdk.component.api.configuration.action.Proposable;
-import org.talend.sdk.component.api.configuration.action.Validable;
+import org.talend.sdk.component.api.configuration.action.Suggestable;
 import org.talend.sdk.component.api.configuration.constraint.Max;
 import org.talend.sdk.component.api.configuration.constraint.Min;
 import org.talend.sdk.component.api.configuration.constraint.Required;
@@ -44,7 +44,7 @@ public class DatasetConfiguration implements Serializable {
     @Required
     @Min(3)
     @Max(12)
-    @Validable(value = "tableValidation")
+    @Suggestable(value = "module", parameters = {"."})
     private String dataSetName = "my dataset";
 
     @Option
