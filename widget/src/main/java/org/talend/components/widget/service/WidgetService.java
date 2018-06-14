@@ -65,7 +65,7 @@ public class WidgetService {
         return new HealthCheckStatus(HealthCheckStatus.Status.OK, "Connection ok");
     }
     
-    @Suggestions(value = "module")
+    @Suggestions("module")
     public SuggestionValues suggest(@Option("mod") final String moduleName) {
         final Collection<SuggestionValues.Item> items = new ArrayList<>();
         items.add(new SuggestionValues.Item("a", "A"));
