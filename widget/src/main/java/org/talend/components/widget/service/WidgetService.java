@@ -66,11 +66,18 @@ public class WidgetService {
     }
     
     @Suggestions("module")
-    public SuggestionValues suggest(@Option("mod") final String moduleName) {
+    public SuggestionValues suggest(@Option("mod") final String letter) {
         final Collection<SuggestionValues.Item> items = new ArrayList<>();
-        items.add(new SuggestionValues.Item("a", "A"));
-        items.add(new SuggestionValues.Item("b", "B"));
-        items.add(new SuggestionValues.Item("c", "C"));
+        if (letter.equals("a")) {
+            items.add(new SuggestionValues.Item("a", "A"));
+            items.add(new SuggestionValues.Item("b", "B"));
+            items.add(new SuggestionValues.Item("c", "C"));
+        } else {
+            items.add(new SuggestionValues.Item("x", "X"));
+            items.add(new SuggestionValues.Item("y", "Y"));
+            items.add(new SuggestionValues.Item("z", "Z"));
+        }
+        
         return new SuggestionValues(true, items);
     }
     

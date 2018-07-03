@@ -44,7 +44,7 @@ public class DatasetConfiguration implements Serializable {
     @Required
     @Min(3)
     @Max(12)
-    @Suggestable(value = "module", parameters = {"."})
+    @Suggestable(value = "module", parameters = {"letter"})
     private String dataSetName = "my dataset";
 
     @Option
