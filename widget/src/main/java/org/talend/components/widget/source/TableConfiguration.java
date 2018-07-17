@@ -27,6 +27,6 @@ import lombok.Data;
 public class TableConfiguration {
 
     @Option
-    @ActiveIf(target = "../../showQuery", value = "true")
+    @ActiveIf(target = "../../../showQuery", value = "true")
     private String tableName = "table";
 }
