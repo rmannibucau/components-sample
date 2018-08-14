@@ -31,9 +31,9 @@ public class ServiceNowMapperBeamTest implements Serializable {
     @ClassRule
     public transient static final JUnit4HttpApi API = new JUnit4HttpApi().activeSsl();
 
-    //    static {
-    //        System.setProperty("talend.junit.http.capture", "true");
-    //    }
+//        static {
+//            System.setProperty("talend.junit.http.capture", "true");
+//        }
 
     @Rule
     public transient final TestPipeline pipeline = TestPipeline.create();

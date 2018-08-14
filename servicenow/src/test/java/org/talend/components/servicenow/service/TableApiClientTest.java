@@ -34,9 +34,9 @@ public class TableApiClientTest {
     @ClassRule
     public static final JUnit4HttpApi API = new JUnit4HttpApi().activeSsl();
 
-    //            static {
-    //                System.setProperty("talend.junit.http.capture", "true");
-    //            }
+//                static {
+//                    System.setProperty("talend.junit.http.capture", "true");
+//                }
 
     @Rule
     public final JUnit4HttpApiPerMethodConfigurator configurator = new JUnit4HttpApiPerMethodConfigurator(API);

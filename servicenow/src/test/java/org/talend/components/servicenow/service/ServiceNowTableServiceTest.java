@@ -36,9 +36,9 @@ public class ServiceNowTableServiceTest {
     @ClassRule
     public static final JUnit4HttpApi API = new JUnit4HttpApi().activeSsl();
 
-    //        static {
-    //            System.setProperty("talend.junit.http.capture", "true");
-    //        }
+//            static {
+//                System.setProperty("talend.junit.http.capture", "true");
+//            }
 
     @Rule
     public final JUnit4HttpApiPerMethodConfigurator configurator = new JUnit4HttpApiPerMethodConfigurator(API);
@@ -66,7 +66,7 @@ public class ServiceNowTableServiceTest {
         client.base(configuration.getDataStore().getUrlWithSlashEnding() + API_BASE + "/" + API_VERSION);
         final Schema schema = new ServiceNowTableService().guessTableSchema(configuration, client, null);
         assertNotNull(schema);
-        assertEquals(83, schema.getEntries().size());
+        assertEquals(81, schema.getEntries().size());
     }
 
     @Test

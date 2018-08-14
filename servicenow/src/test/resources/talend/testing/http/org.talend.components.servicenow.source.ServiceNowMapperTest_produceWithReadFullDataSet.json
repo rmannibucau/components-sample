@@ -8,23 +8,22 @@
         "Connection":"keep-alive"
       },
       "method":"GET",
-      "uri":"https://dev37214.service-now.com/api/now/v2/table/incident?sysparm_query=active%3Dtrue%5Epriority%3D3%5EORDERBYnumber%5EORDERBYcategory&sysparm_offset=0&sysparm_limit=1&sysparm_exclude_reference_link=true&sysparm_suppress_pagination_header=true"
+      "uri":"https://dev12629.service-now.com/api/now/v2/table/incident?sysparm_exclude_reference_link=true&sysparm_query=active%3Dtrue%5Epriority%3D3%5EORDERBYnumber%5EORDERBYcategory&sysparm_offset=0&sysparm_suppress_pagination_header=true&sysparm_limit=1"
     },
     "response":{
       "headers":{
         "Transfer-Encoding":"chunked",
         "Strict-Transport-Security":"max-age=63072000; includeSubDomains",
         "Server":"ServiceNow",
-        "X-Transaction-ID":"dadc77dfdb20",
         "X-Is-Logged-In":"true",
-        "Set-Cookie":"BIGipServerpool_dev37214=209814538.39488.0000; path=/; Httponly; Secure,glide_session_store=D2DC77DFDB2013004A4576EFBF9619D4; Expires=Mon, 05-Mar-2018 16:11:21 GMT; Path=/; HttpOnly;Secure,glide_user_route=glide.74144e62951760f8dc4ae77c49ec0adb; Expires=Sat, 23-Mar-2086 18:55:28 GMT; Path=/; HttpOnly;Secure,glide_user_session=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure,glide_user=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure,JSESSIONID=42192E7077CF054522E8A2339F2B75B7; Path=/; HttpOnly;Secure",
+        "Set-Cookie":"BIGipServerpool_dev12629=2977989642.48702.0000; path=/; Httponly; Secure,glide_session_store=E935A06F4F33130058AE7E918110C715; Expires=Tue, 14-Aug-2018 08:31:47 GMT; Path=/; HttpOnly;Secure,glide_user_route=glide.44bed1d10eddba6998caa56d0b1ab16f; Expires=Sun, 01-Sep-2086 11:15:54 GMT; Path=/; HttpOnly;Secure,glide_user_session=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure,glide_user=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure,JSESSIONID=392059F3E245B4C7DD8977B9967A06BD; Path=/; HttpOnly;Secure",
         "X-Total-Count":"6",
         "Pragma":"no-store,no-cache",
         "Expires":"0",
         "Content-Type":"application/json;charset=UTF-8",
         "Cache-control":"no-cache,no-store,must-revalidate,max-age=-1"
       },
-      "payload":"{\"result\":[{\"parent\":\"\",\"made_sla\":\"false\",\"caused_by\":\"\",\"watch_list\":\"\",\"upon_reject\":\"\",\"sys_updated_on\":\"2017-11-11 19:51:40\",\"child_incidents\":\"\",\"hold_reason\":\"\",\"approval_history\":\"\",\"number\":\"INC0000037\",\"resolved_by\":\"\",\"sys_updated_by\":\"admin\",\"opened_by\":\"5137153cc611227c000bbd1bd8cd2007\",\"user_input\":\"\",\"sys_created_on\":\"2017-08-14 00:35:36\",\"sys_domain\":\"global\",\"state\":\"2\",\"sys_created_by\":\"david.loo\",\"knowledge\":\"false\",\"order\":\"\",\"calendar_stc\":\"43\",\"closed_at\":\"2017-08-14 00:35:39\",\"cmdb_ci\":\"0c43b55ac6112275019abd2b247baf31\",\"delivery_plan\":\"\",\"impact\":\"1\",\"active\":\"true\",\"work_notes_list\":\"\",\"business_service\":\"\",\"priority\":\"3\",\"sys_domain_path\":\"/\",\"rfc\":\"\",\"time_worked\":\"\",\"expected_start\":\"\",\"opened_at\":\"2017-08-14 00:34:56\",\"business_duration\":\"1970-01-01 00:00:43\",\"group_list\":\"\",\"work_end\":\"\",\"caller_id\":\"46d85d4aa9fe198101e36eb956587fe7\",\"reopened_time\":\"\",\"resolved_at\":\"\",\"approval_set\":\"\",\"subcategory\":\"\",\"work_notes\":\"\",\"short_description\":\"Request for a new service\",\"close_code\":\"\",\"correlation_display\":\"\",\"delivery_task\":\"\",\"work_start\":\"\",\"assignment_group\":\"d625dccec0a8016700a222a0f7900d06\",\"additional_assignee_list\":\"\",\"business_stc\":\"43\",\"description\":\"Need to place order for a new machine. Will need help with installation also.\",\"calendar_duration\":\"1970-01-01 00:00:43\",\"close_notes\":\"\",\"notify\":\"1\",\"sys_class_name\":\"incident\",\"closed_by\":\"5137153cc611227c000bbd1bd8cd2007\",\"follow_up\":\"\",\"parent_incident\":\"\",\"sys_id\":\"4715ab62a9fe1981018c3efb96143495\",\"contact_type\":\"phone\",\"reopened_by\":\"\",\"incident_state\":\"2\",\"urgency\":\"3\",\"problem_id\":\"\",\"company\":\"31bea3d53790200044e0bfc8bcbe5dec\",\"reassignment_count\":\"1\",\"activity_due\":\"2017-11-11 21:50:55\",\"assigned_to\":\"46ca0887a9fe19810191e08e51927ebf\",\"severity\":\"3\",\"comments\":\"\",\"approval\":\"not requested\",\"sla_due\":\"\",\"comments_and_work_notes\":\"\",\"due_date\":\"\",\"sys_mod_count\":\"8\",\"reopen_count\":\"\",\"sys_tags\":\"\",\"escalation\":\"0\",\"upon_approval\":\"\",\"correlation_id\":\"\",\"location\":\"108486c7c611227500b093211aa88dcc\",\"category\":\"inquiry\"}]}",
+      "payload":"{\"result\":[{\"parent\":\"\",\"made_sla\":\"false\",\"caused_by\":\"\",\"watch_list\":\"\",\"upon_reject\":\"\",\"sys_updated_on\":\"2018-04-24 19:51:40\",\"child_incidents\":\"\",\"hold_reason\":\"\",\"approval_history\":\"\",\"number\":\"INC0000037\",\"resolved_by\":\"\",\"sys_updated_by\":\"admin\",\"opened_by\":\"5137153cc611227c000bbd1bd8cd2007\",\"user_input\":\"\",\"sys_created_on\":\"2018-01-25 00:35:36\",\"sys_domain\":\"global\",\"state\":\"2\",\"sys_created_by\":\"david.loo\",\"knowledge\":\"false\",\"order\":\"\",\"calendar_stc\":\"43\",\"closed_at\":\"2018-01-25 00:35:39\",\"cmdb_ci\":\"0c43b55ac6112275019abd2b247baf31\",\"delivery_plan\":\"\",\"impact\":\"1\",\"active\":\"true\",\"work_notes_list\":\"\",\"business_service\":\"\",\"priority\":\"3\",\"sys_domain_path\":\"/\",\"rfc\":\"\",\"time_worked\":\"\",\"expected_start\":\"\",\"opened_at\":\"2018-01-25 00:34:56\",\"business_duration\":\"1970-01-01 00:00:43\",\"group_list\":\"\",\"work_end\":\"\",\"caller_id\":\"46d85d4aa9fe198101e36eb956587fe7\",\"resolved_at\":\"\",\"approval_set\":\"\",\"subcategory\":\"\",\"work_notes\":\"\",\"short_description\":\"Request for a new service\",\"close_code\":\"\",\"correlation_display\":\"\",\"delivery_task\":\"\",\"work_start\":\"\",\"assignment_group\":\"d625dccec0a8016700a222a0f7900d06\",\"additional_assignee_list\":\"\",\"business_stc\":\"43\",\"description\":\"\",\"calendar_duration\":\"1970-01-01 00:00:43\",\"close_notes\":\"\",\"notify\":\"1\",\"sys_class_name\":\"incident\",\"closed_by\":\"5137153cc611227c000bbd1bd8cd2007\",\"follow_up\":\"\",\"parent_incident\":\"\",\"sys_id\":\"4715ab62a9fe1981018c3efb96143495\",\"contact_type\":\"phone\",\"incident_state\":\"2\",\"urgency\":\"3\",\"problem_id\":\"\",\"company\":\"31bea3d53790200044e0bfc8bcbe5dec\",\"reassignment_count\":\"1\",\"activity_due\":\"2018-04-24 21:50:55\",\"assigned_to\":\"46ca0887a9fe19810191e08e51927ebf\",\"severity\":\"3\",\"comments\":\"\",\"approval\":\"not requested\",\"sla_due\":\"\",\"comments_and_work_notes\":\"\",\"due_date\":\"\",\"sys_mod_count\":\"8\",\"reopen_count\":\"\",\"sys_tags\":\"\",\"escalation\":\"0\",\"upon_approval\":\"\",\"correlation_id\":\"\",\"location\":\"108486c7c611227500b093211aa88dcc\",\"category\":\"inquiry\"}]}",
       "status":200
     }
   },
@@ -37,16 +36,15 @@
         "Connection":"keep-alive"
       },
       "method":"GET",
-      "uri":"https://dev37214.service-now.com/api/now/v2/table/incident?sysparm_query=active%3Dtrue%5Epriority%3D3%5EORDERBYnumber%5EORDERBYcategory&sysparm_fields=number,active,short_description&sysparm_offset=0&sysparm_limit=1&sysparm_exclude_reference_link=true&sysparm_suppress_pagination_header=true"
+      "uri":"https://dev12629.service-now.com/api/now/v2/table/incident?sysparm_exclude_reference_link=true&sysparm_fields=number,active,short_description&sysparm_query=active%3Dtrue%5Epriority%3D3%5EORDERBYnumber%5EORDERBYcategory&sysparm_offset=0&sysparm_suppress_pagination_header=true&sysparm_limit=1"
     },
     "response":{
       "headers":{
         "Transfer-Encoding":"chunked",
         "Strict-Transport-Security":"max-age=63072000; includeSubDomains",
         "Server":"ServiceNow",
-        "X-Transaction-ID":"eadcb7dfdb20",
         "X-Is-Logged-In":"true",
-        "Set-Cookie":"BIGipServerpool_dev37214=209814538.39488.0000; path=/; Httponly; Secure,glide_session_store=E2DCB7DFDB2013004A4576EFBF96198E; Expires=Mon, 05-Mar-2018 16:11:22 GMT; Path=/; HttpOnly;Secure,glide_user_route=glide.74144e62951760f8dc4ae77c49ec0adb; Expires=Sat, 23-Mar-2086 18:55:29 GMT; Path=/; HttpOnly;Secure,glide_user_session=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure,glide_user=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure,JSESSIONID=5F47069998809F85311B1CDF83752413; Path=/; HttpOnly;Secure",
+        "Set-Cookie":"BIGipServerpool_dev12629=2977989642.48702.0000; path=/; Httponly; Secure,glide_session_store=C235A06F4F33130058AE7E918110C76D; Expires=Tue, 14-Aug-2018 08:31:48 GMT; Path=/; HttpOnly;Secure,glide_user_route=glide.44bed1d10eddba6998caa56d0b1ab16f; Expires=Sun, 01-Sep-2086 11:15:55 GMT; Path=/; HttpOnly;Secure,glide_user_session=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure,glide_user=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure,JSESSIONID=C02A5E100FA19B51C14E634387122CC5; Path=/; HttpOnly;Secure",
         "X-Total-Count":"6",
         "Pragma":"no-store,no-cache",
         "Expires":"0",
@@ -66,74 +64,15 @@
         "Connection":"keep-alive"
       },
       "method":"GET",
-      "uri":"https://dev37214.service-now.com/api/now/v2/table/incident?sysparm_query=active%3Dtrue%5Epriority%3D3%5EORDERBYnumber%5EORDERBYcategory&sysparm_fields=number,active,short_description&sysparm_offset=0&sysparm_limit=1&sysparm_exclude_reference_link=true&sysparm_suppress_pagination_header=true"
+      "uri":"https://dev12629.service-now.com/api/now/v2/table/incident?sysparm_exclude_reference_link=true&sysparm_fields=number,active,short_description&sysparm_query=active%3Dtrue%5Epriority%3D3%5EORDERBYnumber%5EORDERBYcategory&sysparm_offset=0&sysparm_suppress_pagination_header=true&sysparm_limit=1"
     },
     "response":{
       "headers":{
         "Transfer-Encoding":"chunked",
         "Strict-Transport-Security":"max-age=63072000; includeSubDomains",
         "Server":"ServiceNow",
-        "X-Transaction-ID":"badc3bdfdb20",
         "X-Is-Logged-In":"true",
-        "Set-Cookie":"BIGipServerpool_dev37214=209814538.39488.0000; path=/; Httponly; Secure,glide_session_store=B2DC3BDFDB2013004A4576EFBF9619AE; Expires=Mon, 05-Mar-2018 16:11:23 GMT; Path=/; HttpOnly;Secure,glide_user_route=glide.74144e62951760f8dc4ae77c49ec0adb; Expires=Sat, 23-Mar-2086 18:55:30 GMT; Path=/; HttpOnly;Secure,glide_user_session=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure,glide_user=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure,JSESSIONID=25B1FEF11F76E924DEF3E66AD301A7B1; Path=/; HttpOnly;Secure",
-        "X-Total-Count":"6",
-        "Pragma":"no-store,no-cache",
-        "Expires":"0",
-        "Content-Type":"application/json;charset=UTF-8",
-        "Cache-control":"no-cache,no-store,must-revalidate,max-age=-1"
-      },
-      "payload":"{\"result\":[{\"number\":\"INC0000037\",\"short_description\":\"Request for a new service\",\"active\":\"true\"}]}",
-      "status":200
-    }
-  },
-  {
-    "request":{
-      "headers":{
-        "X-no-response-body":"true",
-        "content-length":"0",
-        "Accept":"text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2",
-        "Connection":"keep-alive"
-      },
-      "method":"GET",
-      "uri":"https://dev37214.service-now.com/api/now/v2/table/incident?sysparm_query=active%3Dtrue%5Epriority%3D3%5EORDERBYnumber%5EORDERBYcategory&sysparm_offset=0&sysparm_limit=1&sysparm_exclude_reference_link=true&sysparm_suppress_pagination_header=true"
-    },
-    "response":{
-      "headers":{
-        "Transfer-Encoding":"chunked",
-        "Strict-Transport-Security":"max-age=63072000; includeSubDomains",
-        "Server":"ServiceNow",
-        "X-Transaction-ID":"4fdc7bdfdb20",
-        "X-Is-Logged-In":"true",
-        "Set-Cookie":"BIGipServerpool_dev37214=209814538.39488.0000; path=/; Httponly; Secure,glide_session_store=47DC7BDFDB2013004A4576EFBF961900; Expires=Mon, 05-Mar-2018 16:11:24 GMT; Path=/; HttpOnly;Secure,glide_user_route=glide.74144e62951760f8dc4ae77c49ec0adb; Expires=Sat, 23-Mar-2086 18:55:31 GMT; Path=/; HttpOnly;Secure,glide_user_session=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure,glide_user=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure,JSESSIONID=2AD051B68FFEED93CDBFE3FDBA210A9B; Path=/; HttpOnly;Secure",
-        "X-Total-Count":"6",
-        "Pragma":"no-store,no-cache",
-        "Expires":"0",
-        "Content-Type":"application/json;charset=UTF-8",
-        "Cache-control":"no-cache,no-store,must-revalidate,max-age=-1"
-      },
-      "payload":"{\"result\":[{\"parent\":\"\",\"made_sla\":\"false\",\"caused_by\":\"\",\"watch_list\":\"\",\"upon_reject\":\"\",\"sys_updated_on\":\"2017-11-11 19:51:40\",\"child_incidents\":\"\",\"hold_reason\":\"\",\"approval_history\":\"\",\"number\":\"INC0000037\",\"resolved_by\":\"\",\"sys_updated_by\":\"admin\",\"opened_by\":\"5137153cc611227c000bbd1bd8cd2007\",\"user_input\":\"\",\"sys_created_on\":\"2017-08-14 00:35:36\",\"sys_domain\":\"global\",\"state\":\"2\",\"sys_created_by\":\"david.loo\",\"knowledge\":\"false\",\"order\":\"\",\"calendar_stc\":\"43\",\"closed_at\":\"2017-08-14 00:35:39\",\"cmdb_ci\":\"0c43b55ac6112275019abd2b247baf31\",\"delivery_plan\":\"\",\"impact\":\"1\",\"active\":\"true\",\"work_notes_list\":\"\",\"business_service\":\"\",\"priority\":\"3\",\"sys_domain_path\":\"/\",\"rfc\":\"\",\"time_worked\":\"\",\"expected_start\":\"\",\"opened_at\":\"2017-08-14 00:34:56\",\"business_duration\":\"1970-01-01 00:00:43\",\"group_list\":\"\",\"work_end\":\"\",\"caller_id\":\"46d85d4aa9fe198101e36eb956587fe7\",\"reopened_time\":\"\",\"resolved_at\":\"\",\"approval_set\":\"\",\"subcategory\":\"\",\"work_notes\":\"\",\"short_description\":\"Request for a new service\",\"close_code\":\"\",\"correlation_display\":\"\",\"delivery_task\":\"\",\"work_start\":\"\",\"assignment_group\":\"d625dccec0a8016700a222a0f7900d06\",\"additional_assignee_list\":\"\",\"business_stc\":\"43\",\"description\":\"Need to place order for a new machine. Will need help with installation also.\",\"calendar_duration\":\"1970-01-01 00:00:43\",\"close_notes\":\"\",\"notify\":\"1\",\"sys_class_name\":\"incident\",\"closed_by\":\"5137153cc611227c000bbd1bd8cd2007\",\"follow_up\":\"\",\"parent_incident\":\"\",\"sys_id\":\"4715ab62a9fe1981018c3efb96143495\",\"contact_type\":\"phone\",\"reopened_by\":\"\",\"incident_state\":\"2\",\"urgency\":\"3\",\"problem_id\":\"\",\"company\":\"31bea3d53790200044e0bfc8bcbe5dec\",\"reassignment_count\":\"1\",\"activity_due\":\"2017-11-11 21:50:55\",\"assigned_to\":\"46ca0887a9fe19810191e08e51927ebf\",\"severity\":\"3\",\"comments\":\"\",\"approval\":\"not requested\",\"sla_due\":\"\",\"comments_and_work_notes\":\"\",\"due_date\":\"\",\"sys_mod_count\":\"8\",\"reopen_count\":\"\",\"sys_tags\":\"\",\"escalation\":\"0\",\"upon_approval\":\"\",\"correlation_id\":\"\",\"location\":\"108486c7c611227500b093211aa88dcc\",\"category\":\"inquiry\"}]}",
-      "status":200
-    }
-  },
-  {
-    "request":{
-      "headers":{
-        "X-no-response-body":"false",
-        "content-length":"0",
-        "Accept":"text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2",
-        "Connection":"keep-alive"
-      },
-      "method":"GET",
-      "uri":"https://dev37214.service-now.com/api/now/v2/table/incident?sysparm_query=active%3Dtrue%5Epriority%3D3%5EORDERBYnumber%5EORDERBYcategory&sysparm_fields=number,active,short_description&sysparm_offset=0&sysparm_limit=1&sysparm_exclude_reference_link=true&sysparm_suppress_pagination_header=true"
-    },
-    "response":{
-      "headers":{
-        "Transfer-Encoding":"chunked",
-        "Strict-Transport-Security":"max-age=63072000; includeSubDomains",
-        "Server":"ServiceNow",
-        "X-Transaction-ID":"17dc3bdfdb20",
-        "X-Is-Logged-In":"true",
-        "Set-Cookie":"BIGipServerpool_dev37214=209814538.39488.0000; path=/; Httponly; Secure,glide_session_store=1FDC3BDFDB2013004A4576EFBF9619A0; Expires=Mon, 05-Mar-2018 16:11:25 GMT; Path=/; HttpOnly;Secure,glide_user_route=glide.74144e62951760f8dc4ae77c49ec0adb; Expires=Sat, 23-Mar-2086 18:55:32 GMT; Path=/; HttpOnly;Secure,glide_user_session=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure,glide_user=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure,JSESSIONID=0FD44AD55FDB228D97D3A7FD302B60D4; Path=/; HttpOnly;Secure",
+        "Set-Cookie":"BIGipServerpool_dev12629=2977989642.48702.0000; path=/; Httponly; Secure,glide_session_store=9235A06F4F33130058AE7E918110C748; Expires=Tue, 14-Aug-2018 08:31:49 GMT; Path=/; HttpOnly;Secure,glide_user_route=glide.44bed1d10eddba6998caa56d0b1ab16f; Expires=Sun, 01-Sep-2086 11:15:56 GMT; Path=/; HttpOnly;Secure,glide_user_session=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure,glide_user=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure,JSESSIONID=44969A5749FA34145F2BB236F7FF5C45; Path=/; HttpOnly;Secure",
         "X-Total-Count":"6",
         "Pragma":"no-store,no-cache",
         "Expires":"0",
@@ -153,23 +92,22 @@
         "Connection":"keep-alive"
       },
       "method":"GET",
-      "uri":"https://dev37214.service-now.com/api/now/v2/table/incident?sysparm_query=active%3Dtrue%5Epriority%3D3%5EORDERBYnumber%5EORDERBYcategory&sysparm_offset=0&sysparm_limit=1&sysparm_exclude_reference_link=true&sysparm_suppress_pagination_header=true"
+      "uri":"https://dev12629.service-now.com/api/now/v2/table/incident?sysparm_exclude_reference_link=true&sysparm_query=active%3Dtrue%5Epriority%3D3%5EORDERBYnumber%5EORDERBYcategory&sysparm_offset=0&sysparm_suppress_pagination_header=true&sysparm_limit=1"
     },
     "response":{
       "headers":{
         "Transfer-Encoding":"chunked",
         "Strict-Transport-Security":"max-age=63072000; includeSubDomains",
         "Server":"ServiceNow",
-        "X-Transaction-ID":"afdc3bdfdb20",
         "X-Is-Logged-In":"true",
-        "Set-Cookie":"BIGipServerpool_dev37214=209814538.39488.0000; path=/; Httponly; Secure,glide_session_store=A7DC3BDFDB2013004A4576EFBF9619F5; Expires=Mon, 05-Mar-2018 16:11:26 GMT; Path=/; HttpOnly;Secure,glide_user_route=glide.74144e62951760f8dc4ae77c49ec0adb; Expires=Sat, 23-Mar-2086 18:55:33 GMT; Path=/; HttpOnly;Secure,glide_user_session=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure,glide_user=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure,JSESSIONID=B2A38FD6D4C2645D5466658000D44D18; Path=/; HttpOnly;Secure",
+        "Set-Cookie":"BIGipServerpool_dev12629=2977989642.48702.0000; path=/; Httponly; Secure,glide_session_store=2A35A06F4F33130058AE7E918110C7AA; Expires=Tue, 14-Aug-2018 08:31:50 GMT; Path=/; HttpOnly;Secure,glide_user_route=glide.44bed1d10eddba6998caa56d0b1ab16f; Expires=Sun, 01-Sep-2086 11:15:57 GMT; Path=/; HttpOnly;Secure,glide_user_session=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure,glide_user=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure,JSESSIONID=95F0846723F27E9FF5FAFA563292B386; Path=/; HttpOnly;Secure",
         "X-Total-Count":"6",
         "Pragma":"no-store,no-cache",
         "Expires":"0",
         "Content-Type":"application/json;charset=UTF-8",
         "Cache-control":"no-cache,no-store,must-revalidate,max-age=-1"
       },
-      "payload":"{\"result\":[{\"parent\":\"\",\"made_sla\":\"false\",\"caused_by\":\"\",\"watch_list\":\"\",\"upon_reject\":\"\",\"sys_updated_on\":\"2017-11-11 19:51:40\",\"child_incidents\":\"\",\"hold_reason\":\"\",\"approval_history\":\"\",\"number\":\"INC0000037\",\"resolved_by\":\"\",\"sys_updated_by\":\"admin\",\"opened_by\":\"5137153cc611227c000bbd1bd8cd2007\",\"user_input\":\"\",\"sys_created_on\":\"2017-08-14 00:35:36\",\"sys_domain\":\"global\",\"state\":\"2\",\"sys_created_by\":\"david.loo\",\"knowledge\":\"false\",\"order\":\"\",\"calendar_stc\":\"43\",\"closed_at\":\"2017-08-14 00:35:39\",\"cmdb_ci\":\"0c43b55ac6112275019abd2b247baf31\",\"delivery_plan\":\"\",\"impact\":\"1\",\"active\":\"true\",\"work_notes_list\":\"\",\"business_service\":\"\",\"priority\":\"3\",\"sys_domain_path\":\"/\",\"rfc\":\"\",\"time_worked\":\"\",\"expected_start\":\"\",\"opened_at\":\"2017-08-14 00:34:56\",\"business_duration\":\"1970-01-01 00:00:43\",\"group_list\":\"\",\"work_end\":\"\",\"caller_id\":\"46d85d4aa9fe198101e36eb956587fe7\",\"reopened_time\":\"\",\"resolved_at\":\"\",\"approval_set\":\"\",\"subcategory\":\"\",\"work_notes\":\"\",\"short_description\":\"Request for a new service\",\"close_code\":\"\",\"correlation_display\":\"\",\"delivery_task\":\"\",\"work_start\":\"\",\"assignment_group\":\"d625dccec0a8016700a222a0f7900d06\",\"additional_assignee_list\":\"\",\"business_stc\":\"43\",\"description\":\"Need to place order for a new machine. Will need help with installation also.\",\"calendar_duration\":\"1970-01-01 00:00:43\",\"close_notes\":\"\",\"notify\":\"1\",\"sys_class_name\":\"incident\",\"closed_by\":\"5137153cc611227c000bbd1bd8cd2007\",\"follow_up\":\"\",\"parent_incident\":\"\",\"sys_id\":\"4715ab62a9fe1981018c3efb96143495\",\"contact_type\":\"phone\",\"reopened_by\":\"\",\"incident_state\":\"2\",\"urgency\":\"3\",\"problem_id\":\"\",\"company\":\"31bea3d53790200044e0bfc8bcbe5dec\",\"reassignment_count\":\"1\",\"activity_due\":\"2017-11-11 21:50:55\",\"assigned_to\":\"46ca0887a9fe19810191e08e51927ebf\",\"severity\":\"3\",\"comments\":\"\",\"approval\":\"not requested\",\"sla_due\":\"\",\"comments_and_work_notes\":\"\",\"due_date\":\"\",\"sys_mod_count\":\"8\",\"reopen_count\":\"\",\"sys_tags\":\"\",\"escalation\":\"0\",\"upon_approval\":\"\",\"correlation_id\":\"\",\"location\":\"108486c7c611227500b093211aa88dcc\",\"category\":\"inquiry\"}]}",
+      "payload":"{\"result\":[{\"parent\":\"\",\"made_sla\":\"false\",\"caused_by\":\"\",\"watch_list\":\"\",\"upon_reject\":\"\",\"sys_updated_on\":\"2018-04-24 19:51:40\",\"child_incidents\":\"\",\"hold_reason\":\"\",\"approval_history\":\"\",\"number\":\"INC0000037\",\"resolved_by\":\"\",\"sys_updated_by\":\"admin\",\"opened_by\":\"5137153cc611227c000bbd1bd8cd2007\",\"user_input\":\"\",\"sys_created_on\":\"2018-01-25 00:35:36\",\"sys_domain\":\"global\",\"state\":\"2\",\"sys_created_by\":\"david.loo\",\"knowledge\":\"false\",\"order\":\"\",\"calendar_stc\":\"43\",\"closed_at\":\"2018-01-25 00:35:39\",\"cmdb_ci\":\"0c43b55ac6112275019abd2b247baf31\",\"delivery_plan\":\"\",\"impact\":\"1\",\"active\":\"true\",\"work_notes_list\":\"\",\"business_service\":\"\",\"priority\":\"3\",\"sys_domain_path\":\"/\",\"rfc\":\"\",\"time_worked\":\"\",\"expected_start\":\"\",\"opened_at\":\"2018-01-25 00:34:56\",\"business_duration\":\"1970-01-01 00:00:43\",\"group_list\":\"\",\"work_end\":\"\",\"caller_id\":\"46d85d4aa9fe198101e36eb956587fe7\",\"resolved_at\":\"\",\"approval_set\":\"\",\"subcategory\":\"\",\"work_notes\":\"\",\"short_description\":\"Request for a new service\",\"close_code\":\"\",\"correlation_display\":\"\",\"delivery_task\":\"\",\"work_start\":\"\",\"assignment_group\":\"d625dccec0a8016700a222a0f7900d06\",\"additional_assignee_list\":\"\",\"business_stc\":\"43\",\"description\":\"\",\"calendar_duration\":\"1970-01-01 00:00:43\",\"close_notes\":\"\",\"notify\":\"1\",\"sys_class_name\":\"incident\",\"closed_by\":\"5137153cc611227c000bbd1bd8cd2007\",\"follow_up\":\"\",\"parent_incident\":\"\",\"sys_id\":\"4715ab62a9fe1981018c3efb96143495\",\"contact_type\":\"phone\",\"incident_state\":\"2\",\"urgency\":\"3\",\"problem_id\":\"\",\"company\":\"31bea3d53790200044e0bfc8bcbe5dec\",\"reassignment_count\":\"1\",\"activity_due\":\"2018-04-24 21:50:55\",\"assigned_to\":\"46ca0887a9fe19810191e08e51927ebf\",\"severity\":\"3\",\"comments\":\"\",\"approval\":\"not requested\",\"sla_due\":\"\",\"comments_and_work_notes\":\"\",\"due_date\":\"\",\"sys_mod_count\":\"8\",\"reopen_count\":\"\",\"sys_tags\":\"\",\"escalation\":\"0\",\"upon_approval\":\"\",\"correlation_id\":\"\",\"location\":\"108486c7c611227500b093211aa88dcc\",\"category\":\"inquiry\"}]}",
       "status":200
     }
   },
@@ -182,23 +120,50 @@
         "Connection":"keep-alive"
       },
       "method":"GET",
-      "uri":"https://dev37214.service-now.com/api/now/v2/table/incident?sysparm_query=active%3Dtrue%5Epriority%3D3%5EORDERBYnumber%5EORDERBYcategory&sysparm_fields=number,active,short_description&sysparm_offset=0&sysparm_limit=3&sysparm_exclude_reference_link=true&sysparm_suppress_pagination_header=true"
+      "uri":"https://dev12629.service-now.com/api/now/v2/table/incident?sysparm_exclude_reference_link=true&sysparm_fields=number,active,short_description&sysparm_query=active%3Dtrue%5Epriority%3D3%5EORDERBYnumber%5EORDERBYcategory&sysparm_offset=0&sysparm_suppress_pagination_header=true&sysparm_limit=1"
     },
     "response":{
       "headers":{
         "Transfer-Encoding":"chunked",
         "Strict-Transport-Security":"max-age=63072000; includeSubDomains",
         "Server":"ServiceNow",
-        "X-Transaction-ID":"77dcb7dfdb20",
         "X-Is-Logged-In":"true",
-        "Set-Cookie":"BIGipServerpool_dev37214=209814538.39488.0000; path=/; Httponly; Secure,glide_session_store=7FDCB7DFDB2013004A4576EFBF9619E5; Expires=Mon, 05-Mar-2018 16:11:28 GMT; Path=/; HttpOnly;Secure,glide_user_route=glide.74144e62951760f8dc4ae77c49ec0adb; Expires=Sat, 23-Mar-2086 18:55:35 GMT; Path=/; HttpOnly;Secure,glide_user_session=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure,glide_user=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure,JSESSIONID=78DA34D6663DCC81AE4748AD227CC5E0; Path=/; HttpOnly;Secure",
+        "Set-Cookie":"BIGipServerpool_dev12629=2977989642.48702.0000; path=/; Httponly; Secure,glide_session_store=BA35EC2F4F33130058AE7E918110C755; Expires=Tue, 14-Aug-2018 08:31:51 GMT; Path=/; HttpOnly;Secure,glide_user_route=glide.44bed1d10eddba6998caa56d0b1ab16f; Expires=Sun, 01-Sep-2086 11:15:58 GMT; Path=/; HttpOnly;Secure,glide_user_session=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure,glide_user=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure,JSESSIONID=D759F985AC5CD7DFF0AE2457BF18BF15; Path=/; HttpOnly;Secure",
         "X-Total-Count":"6",
         "Pragma":"no-store,no-cache",
         "Expires":"0",
         "Content-Type":"application/json;charset=UTF-8",
         "Cache-control":"no-cache,no-store,must-revalidate,max-age=-1"
       },
-      "payload":"{\"result\":[{\"number\":\"INC0000037\",\"short_description\":\"Request for a new service\",\"active\":\"true\"},{\"number\":\"INC0000040\",\"short_description\":\"JavaScript error on hiring page of corporate website\",\"active\":\"true\"},{\"number\":\"INC0000041\",\"short_description\":\"My desk phone does not work\",\"active\":\"true\"}]}",
+      "payload":"{\"result\":[{\"number\":\"INC0000037\",\"short_description\":\"Request for a new service\",\"active\":\"true\"}]}",
+      "status":200
+    }
+  },
+  {
+    "request":{
+      "headers":{
+        "X-no-response-body":"true",
+        "content-length":"0",
+        "Accept":"text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2",
+        "Connection":"keep-alive"
+      },
+      "method":"GET",
+      "uri":"https://dev12629.service-now.com/api/now/v2/table/incident?sysparm_exclude_reference_link=true&sysparm_query=active%3Dtrue%5Epriority%3D3%5EORDERBYnumber%5EORDERBYcategory&sysparm_offset=0&sysparm_suppress_pagination_header=true&sysparm_limit=1"
+    },
+    "response":{
+      "headers":{
+        "Transfer-Encoding":"chunked",
+        "Strict-Transport-Security":"max-age=63072000; includeSubDomains",
+        "Server":"ServiceNow",
+        "X-Is-Logged-In":"true",
+        "Set-Cookie":"BIGipServerpool_dev12629=2977989642.48702.0000; path=/; Httponly; Secure,glide_session_store=CB35A06F4F33130058AE7E918110C786; Expires=Tue, 14-Aug-2018 08:31:52 GMT; Path=/; HttpOnly;Secure,glide_user_route=glide.44bed1d10eddba6998caa56d0b1ab16f; Expires=Sun, 01-Sep-2086 11:15:59 GMT; Path=/; HttpOnly;Secure,glide_user_session=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure,glide_user=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure,JSESSIONID=F2AFCDED7BA0FBB9080403A22BC29EB0; Path=/; HttpOnly;Secure",
+        "X-Total-Count":"6",
+        "Pragma":"no-store,no-cache",
+        "Expires":"0",
+        "Content-Type":"application/json;charset=UTF-8",
+        "Cache-control":"no-cache,no-store,must-revalidate,max-age=-1"
+      },
+      "payload":"{\"result\":[{\"parent\":\"\",\"made_sla\":\"false\",\"caused_by\":\"\",\"watch_list\":\"\",\"upon_reject\":\"\",\"sys_updated_on\":\"2018-04-24 19:51:40\",\"child_incidents\":\"\",\"hold_reason\":\"\",\"approval_history\":\"\",\"number\":\"INC0000037\",\"resolved_by\":\"\",\"sys_updated_by\":\"admin\",\"opened_by\":\"5137153cc611227c000bbd1bd8cd2007\",\"user_input\":\"\",\"sys_created_on\":\"2018-01-25 00:35:36\",\"sys_domain\":\"global\",\"state\":\"2\",\"sys_created_by\":\"david.loo\",\"knowledge\":\"false\",\"order\":\"\",\"calendar_stc\":\"43\",\"closed_at\":\"2018-01-25 00:35:39\",\"cmdb_ci\":\"0c43b55ac6112275019abd2b247baf31\",\"delivery_plan\":\"\",\"impact\":\"1\",\"active\":\"true\",\"work_notes_list\":\"\",\"business_service\":\"\",\"priority\":\"3\",\"sys_domain_path\":\"/\",\"rfc\":\"\",\"time_worked\":\"\",\"expected_start\":\"\",\"opened_at\":\"2018-01-25 00:34:56\",\"business_duration\":\"1970-01-01 00:00:43\",\"group_list\":\"\",\"work_end\":\"\",\"caller_id\":\"46d85d4aa9fe198101e36eb956587fe7\",\"resolved_at\":\"\",\"approval_set\":\"\",\"subcategory\":\"\",\"work_notes\":\"\",\"short_description\":\"Request for a new service\",\"close_code\":\"\",\"correlation_display\":\"\",\"delivery_task\":\"\",\"work_start\":\"\",\"assignment_group\":\"d625dccec0a8016700a222a0f7900d06\",\"additional_assignee_list\":\"\",\"business_stc\":\"43\",\"description\":\"\",\"calendar_duration\":\"1970-01-01 00:00:43\",\"close_notes\":\"\",\"notify\":\"1\",\"sys_class_name\":\"incident\",\"closed_by\":\"5137153cc611227c000bbd1bd8cd2007\",\"follow_up\":\"\",\"parent_incident\":\"\",\"sys_id\":\"4715ab62a9fe1981018c3efb96143495\",\"contact_type\":\"phone\",\"incident_state\":\"2\",\"urgency\":\"3\",\"problem_id\":\"\",\"company\":\"31bea3d53790200044e0bfc8bcbe5dec\",\"reassignment_count\":\"1\",\"activity_due\":\"2018-04-24 21:50:55\",\"assigned_to\":\"46ca0887a9fe19810191e08e51927ebf\",\"severity\":\"3\",\"comments\":\"\",\"approval\":\"not requested\",\"sla_due\":\"\",\"comments_and_work_notes\":\"\",\"due_date\":\"\",\"sys_mod_count\":\"8\",\"reopen_count\":\"\",\"sys_tags\":\"\",\"escalation\":\"0\",\"upon_approval\":\"\",\"correlation_id\":\"\",\"location\":\"108486c7c611227500b093211aa88dcc\",\"category\":\"inquiry\"}]}",
       "status":200
     }
   },
@@ -211,23 +176,50 @@
         "Connection":"keep-alive"
       },
       "method":"GET",
-      "uri":"https://dev37214.service-now.com/api/now/v2/table/incident?sysparm_query=active%3Dtrue%5Epriority%3D3%5EORDERBYnumber%5EORDERBYcategory&sysparm_fields=number,active,short_description&sysparm_offset=3&sysparm_limit=3&sysparm_exclude_reference_link=true&sysparm_suppress_pagination_header=true"
+      "uri":"https://dev12629.service-now.com/api/now/v2/table/incident?sysparm_exclude_reference_link=true&sysparm_fields=number,active,short_description&sysparm_query=active%3Dtrue%5Epriority%3D3%5EORDERBYnumber%5EORDERBYcategory&sysparm_offset=3&sysparm_suppress_pagination_header=true&sysparm_limit=3"
     },
     "response":{
       "headers":{
         "Transfer-Encoding":"chunked",
         "Strict-Transport-Security":"max-age=63072000; includeSubDomains",
         "Server":"ServiceNow",
-        "X-Transaction-ID":"73dc7bdfdb20",
         "X-Is-Logged-In":"true",
-        "Set-Cookie":"BIGipServerpool_dev37214=209814538.39488.0000; path=/; Httponly; Secure,glide_session_store=7BDC7BDFDB2013004A4576EFBF961931; Expires=Mon, 05-Mar-2018 16:11:28 GMT; Path=/; HttpOnly;Secure,glide_user_route=glide.74144e62951760f8dc4ae77c49ec0adb; Expires=Sat, 23-Mar-2086 18:55:35 GMT; Path=/; HttpOnly;Secure,glide_user_session=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure,glide_user=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure,JSESSIONID=B01EC179C44BAAC358B64DB65A48DD19; Path=/; HttpOnly;Secure",
+        "Set-Cookie":"BIGipServerpool_dev12629=2977989642.48702.0000; path=/; Httponly; Secure,glide_session_store=9335EC2F4F33130058AE7E918110C7C1; Expires=Tue, 14-Aug-2018 08:31:55 GMT; Path=/; HttpOnly;Secure,glide_user_route=glide.44bed1d10eddba6998caa56d0b1ab16f; Expires=Sun, 01-Sep-2086 11:16:02 GMT; Path=/; HttpOnly;Secure,glide_user_session=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure,glide_user=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure,JSESSIONID=C22A692D9D1E90FD92F1CDA9AD2B498B; Path=/; HttpOnly;Secure",
         "X-Total-Count":"6",
         "Pragma":"no-store,no-cache",
         "Expires":"0",
         "Content-Type":"application/json;charset=UTF-8",
         "Cache-control":"no-cache,no-store,must-revalidate,max-age=-1"
       },
-      "payload":"{\"result\":[{\"number\":\"INC0000046\",\"short_description\":\"Can't access SFA software\",\"active\":\"true\"},{\"number\":\"INC0000047\",\"short_description\":\"Issue with email\",\"active\":\"true\"},{\"number\":\"INC0000059\",\"short_description\":\"Unable to access team file share\",\"active\":\"true\"}]}",
+      "payload":"{\"result\":[{\"number\":\"INC0000046\",\"short_description\":\"Can't access SFA software\",\"active\":\"true\"},{\"number\":\"INC0000047\",\"short_description\":\"Issue with email\",\"active\":\"true\"},{\"number\":\"INC0020001\",\"short_description\":\"test\",\"active\":\"true\"}]}",
+      "status":200
+    }
+  },
+  {
+    "request":{
+      "headers":{
+        "X-no-response-body":"false",
+        "content-length":"0",
+        "Accept":"text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2",
+        "Connection":"keep-alive"
+      },
+      "method":"GET",
+      "uri":"https://dev12629.service-now.com/api/now/v2/table/incident?sysparm_exclude_reference_link=true&sysparm_fields=number,active,short_description&sysparm_query=active%3Dtrue%5Epriority%3D3%5EORDERBYnumber%5EORDERBYcategory&sysparm_offset=0&sysparm_suppress_pagination_header=true&sysparm_limit=3"
+    },
+    "response":{
+      "headers":{
+        "Transfer-Encoding":"chunked",
+        "Strict-Transport-Security":"max-age=63072000; includeSubDomains",
+        "Server":"ServiceNow",
+        "X-Is-Logged-In":"true",
+        "Set-Cookie":"BIGipServerpool_dev12629=2977989642.48702.0000; path=/; Httponly; Secure,glide_session_store=5B35EC2F4F33130058AE7E918110C789; Expires=Tue, 14-Aug-2018 08:31:55 GMT; Path=/; HttpOnly;Secure,glide_user_route=glide.44bed1d10eddba6998caa56d0b1ab16f; Expires=Sun, 01-Sep-2086 11:16:02 GMT; Path=/; HttpOnly;Secure,glide_user_session=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure,glide_user=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure,JSESSIONID=9CD6092D2C9D6D927FA0C7D11A1BC8DD; Path=/; HttpOnly;Secure",
+        "X-Total-Count":"6",
+        "Pragma":"no-store,no-cache",
+        "Expires":"0",
+        "Content-Type":"application/json;charset=UTF-8",
+        "Cache-control":"no-cache,no-store,must-revalidate,max-age=-1"
+      },
+      "payload":"{\"result\":[{\"number\":\"INC0000037\",\"short_description\":\"Request for a new service\",\"active\":\"true\"},{\"number\":\"INC0000040\",\"short_description\":\"JavaScript error on hiring page of corporate\\n\\t\\t\\twebsite\",\"active\":\"true\"},{\"number\":\"INC0000041\",\"short_description\":\"My desk phone does not work\",\"active\":\"true\"}]}",
       "status":200
     }
   }

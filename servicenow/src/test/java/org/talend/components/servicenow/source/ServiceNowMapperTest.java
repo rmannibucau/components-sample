@@ -38,9 +38,9 @@ public class ServiceNowMapperTest {
     @ClassRule
     public static final JUnit4HttpApi API = new JUnit4HttpApi().activeSsl();
 
-    //    static {
-    //        System.setProperty("talend.junit.http.capture", "true");
-    //    }
+//        static {
+//            System.setProperty("talend.junit.http.capture", "true");
+//        }
 
     @Rule
     public final JUnit4HttpApiPerMethodConfigurator configurator = new JUnit4HttpApiPerMethodConfigurator(API);
@@ -109,7 +109,7 @@ public class ServiceNowMapperTest {
         configuration.setCommonConfig(apiConfig);
 
         configuration.setQueryBuilder(new ArrayList<QueryBuilder>() {{
-            add(new QueryBuilder(QueryBuilder.Fields.number, QueryBuilder.Operation.Equals, "INC0000060"));
+            add(new QueryBuilder(QueryBuilder.Fields.number, QueryBuilder.Operation.Equals, "INC0000010"));
         }});
         configuration.setMaxRecords(READ_ALL_RECORD_FROM_SERVER);
         configuration.getCommonConfig().getFields().add(QueryBuilder.Fields.number.name());
@@ -123,7 +123,7 @@ public class ServiceNowMapperTest {
 
         assertEquals(1, serviceNowRecords.size());
         assertNotNull(serviceNowRecords.get(0).get("number"));
-        assertEquals("INC0000060", serviceNowRecords.get(0).getString("number"));
+        assertEquals("INC0000010", serviceNowRecords.get(0).getString("number"));
     }
 
     @Test
