@@ -11,6 +11,8 @@ import javax.json.JsonArray;
 import javax.json.JsonObject;
 import javax.json.JsonValue;
 
+import org.apache.commons.lang.ObjectUtils;
+import org.apache.commons.lang.StringUtils;
 import org.talend.components.servicenow.configuration.TableDataSet;
 import org.talend.components.servicenow.messages.Messages;
 import org.talend.components.servicenow.service.http.TableApiClient;
@@ -37,7 +39,7 @@ public class ServiceNowTableSource implements Serializable {
 
     @PostConstruct
     public void init() {
-        tableAPI.base(ds.getDataStore().getUrlWithSlashEnding() + API_BASE + "/" + API_VERSION);
+        tableAPI.base(ds.getDataStore().getUrlWithSlashEnding() + API_BASE + "/" + StringUtils.deleteWhitespace(API_VERSION));
         bufferedReader = new BufferizedProducerSupport<>(() -> {
             if (ds.getMaxRecords() != READ_ALL_RECORD_FROM_SERVER && ds.getOffset() >= ds
                     .getMaxRecords()) {
